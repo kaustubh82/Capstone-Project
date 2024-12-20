@@ -45,7 +45,7 @@ nav ul li a {
     font-family: "MuseoModerno", sans-serif;
     font-size: 30px;
     font-weight: 400;
-    margin-right: 40px;
+    margin-right: 100px;
 }
 
 nav ul li a:hover {
@@ -72,6 +72,10 @@ nav ul li a:hover {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
     padding: 20px;
+}
+
+.rem{
+  color: gray;
 }
 
 .projects .project img {
@@ -135,10 +139,11 @@ body {
     border-radius: 8px;
 }
   
-  view-projects {
+.view-projects {
     background-color: black;
-    color: #000;
+    color: white;
     border: none;
+    border-radius: 5px;
     padding: 10px 20px;
     font-size: 1rem;
     cursor: pointer;
