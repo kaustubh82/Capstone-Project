@@ -229,3 +229,31 @@ body {
     color: #000; 
   }
   
+  @media (max-width: 768px) {
+    body {
+      margin-top: 30px;
+    }
+    .hero h1 {
+        font-size: 2rem;
+    }
+  
+    .projects {
+        grid-template-columns: 1fr;
+    }
+  
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+  
+    .explore-work {
+        padding: 20px;
+    }
+    .introduction {
+      font-size: 30px;
+    }
+    .icon {
+      margin-left: 20px;
+    }
+  } 
+  
